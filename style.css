@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 6rem;
+}
+
+.count-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.count{
+    color:white;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+.value{
+    font-size: 5rem;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+
